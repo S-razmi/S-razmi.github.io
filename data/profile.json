@@ -79,11 +79,11 @@
   ],
   "experience": [
     {
-      "role": "AI / Machine Learning Researcher",
+      "role": "Quantitative Developer",
       "organization": "Clanz",
       "organizationUrl": "https://www.linkedin.com/in/siavash-razmi/",
-      "period": "2025 - Present",
-      "description": "Current LinkedIn-listed professional role, focused on applied AI and machine learning work alongside PhD research."
+      "period": "Jan 2025 - Jul 2025",
+      "description": "Led the design and development of the trading layer for the Parabolic.fi platform. Built infrastructure to deploy, run, and maintain algorithmic trading bots with Python, SQL, JavaScript, FastAPI, REST interfaces, asynchronous event-driven services, clean architecture, and crypto exchange integrations including Bybit, LBank, Coinstore, CCXT, and custom interfaces."
     },
     {
       "role": "PhD Candidate in Computer Science",
@@ -93,28 +93,28 @@
       "description": "Working under the supervision of Dr. Thomas Fahringer on AI-based anomaly detection and root cause analysis systems for cloud, distributed, and parallel computing environments."
     },
     {
-      "role": "Data Scientist",
-      "organization": "Deep Finance Capital",
-      "period": "Mar 2024 - Nov 2024",
-      "description": "Implemented a thesis-derived trading strategy in live cryptocurrency futures markets using Django, Redis, and PostgreSQL; refined the trading universe and rules to improve risk-adjusted performance."
+      "role": "Quantitative Researcher",
+      "organization": "Deep Finance",
+      "period": "Apr 2024 - Jan 2025",
+      "description": "Implemented the trading strategy from my thesis in the live cryptocurrency futures market using Django. Refined the strategy by modifying the trading universe, optimizing entry and exit rules, and improving the Sharpe ratio by 0.4."
     },
     {
       "role": "Research Assistant",
-      "organization": "Social Network Laboratory, University of Tehran",
-      "period": "Sep 2021 - Aug 2024",
-      "description": "Developed machine-learning-driven algorithmic trading research using LightGBM, time-series forecasting, and data analysis under the supervision of Dr. Masoud Asadpour and Dr. Sasan Barak."
+      "organization": "Social Networks Laboratory, University of Tehran",
+      "period": "Jan 2022 - Aug 2024",
+      "description": "Research Assistant at the Social Networks Laboratory under the supervision of Dr. Masoud Asadpour and the advisement of Dr. Sasan Barak, working on statistics, quantitative analytics, machine learning, and algorithmic trading research."
     },
     {
-      "role": "Machine Learning Intern",
-      "organization": "Tensurf LLC",
+      "role": "Data Scientist",
+      "organization": "TenSurf",
       "period": "Jul 2022 - Apr 2023",
-      "description": "Built PyTorch models for stock market price movement prediction, trading strategy design, and limit-order-book and market-by-order data analysis."
+      "description": "Collaborated with a team of 20+ members to develop a deep learning model combining an Inception convolution module and LSTM for short-term market movement forecasting using Limit Order Book data from the US stock futures market."
     },
     {
       "role": "Network Administrator",
-      "organization": "Shirin Sugar",
+      "organization": "Shirin Khorasan Agriculture & Industrial Company",
       "period": "May 2017 - Jun 2019",
-      "description": "Maintained Microsoft Active Directory, DNS, DHCP, Kerio firewall, office automation tools, and Mikrotik routing infrastructure."
+      "description": "Managed network administration and the IT department for an on-site industrial environment in Mashhad, including infrastructure operations and user support."
     }
   ],
   "education": [
