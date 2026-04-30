@@ -1,0 +1,201 @@
+{
+  "name": "Siavash Razmi",
+  "kicker": "PhD Candidate in Computer Science",
+  "headline": "Researching AI-driven anomaly detection, cloud computing, and intelligent networked systems at Universitat Innsbruck.",
+  "bio": "I work at the intersection of machine learning, cloud and network systems, data analytics, and quantitative modeling. My recent research spans AI-driven spectrum management for O-RAN, anomaly detection for cloud environments, and adaptive models for cryptocurrency market behavior. Previously, I completed an MSc in Artificial Intelligence at the University of Tehran, where my thesis focused on directional-change forecasting and lead-lag relationships for algorithmic trading.",
+  "contactNote": "For research collaboration, applied AI work, or academic inquiries, email is the best first contact.",
+  "links": [
+    {
+      "label": "Email",
+      "url": "mailto:SiavashRazmi74@gmail.com",
+      "primary": true
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/siavash-razmi/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/S-razmi"
+    },
+    {
+      "label": "DBLP",
+      "url": "https://dblp.org/pid/400/4739"
+    },
+    {
+      "label": "ORCID",
+      "url": ""
+    },
+    {
+      "label": "Google Scholar",
+      "url": ""
+    }
+  ],
+  "contactLinks": [
+    {
+      "label": "Email Siavash",
+      "url": "mailto:SiavashRazmi74@gmail.com",
+      "primary": true
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/siavash-razmi/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/S-razmi"
+    }
+  ],
+  "research": [
+    {
+      "title": "Cloud and AI Systems",
+      "meta": "Current PhD research",
+      "description": "AI-driven anomaly detection, cloud computing, and reliable intelligent infrastructure."
+    },
+    {
+      "title": "AI for Network Management",
+      "meta": "O-RAN and spectrum sharing",
+      "description": "Adaptive spatio-temporal spectrum management with discriminative and generative AI."
+    },
+    {
+      "title": "Financial Machine Learning",
+      "meta": "Time series and market behavior",
+      "description": "Directional-change modeling, meta-learning, lead-lag structure, and regime-aware crypto strategies."
+    }
+  ],
+  "experience": [
+    {
+      "role": "PhD Candidate in Computer Science",
+      "organization": "Universitat Innsbruck",
+      "period": "2025 - Present",
+      "description": "Researching AI, cloud computing, anomaly detection, and intelligent networked systems."
+    },
+    {
+      "role": "Data Scientist",
+      "organization": "Deep Finance Capital",
+      "period": "Mar 2024 - Nov 2024",
+      "description": "Implemented a thesis-derived trading strategy in live cryptocurrency futures markets using Django, Redis, and PostgreSQL; refined the trading universe and rules to improve risk-adjusted performance."
+    },
+    {
+      "role": "Research Assistant",
+      "organization": "Social Network Laboratory, University of Tehran",
+      "period": "Sep 2021 - Aug 2024",
+      "description": "Developed machine-learning-driven algorithmic trading research using LightGBM, time-series forecasting, and data analysis under the supervision of Dr. Masoud Asadpour and Dr. Sasan Barak."
+    },
+    {
+      "role": "Machine Learning Intern",
+      "organization": "Tensurf LLC",
+      "period": "Jul 2022 - Apr 2023",
+      "description": "Built PyTorch models for stock market price movement prediction, trading strategy design, and limit-order-book and market-by-order data analysis."
+    },
+    {
+      "role": "Network Administrator",
+      "organization": "Shirin Sugar",
+      "period": "May 2017 - Jun 2019",
+      "description": "Maintained Microsoft Active Directory, DNS, DHCP, Kerio firewall, office automation tools, and Mikrotik routing infrastructure."
+    }
+  ],
+  "education": [
+    {
+      "degree": "PhD, Computer Science",
+      "organization": "Universitat Innsbruck",
+      "period": "2025 - Present",
+      "description": "Research focus: AI, cloud computing, anomaly detection, and intelligent systems."
+    },
+    {
+      "degree": "MSc, Computer Engineering - Artificial Intelligence",
+      "organization": "University of Tehran",
+      "period": "Sep 2021 - Aug 2024",
+      "description": "Thesis: Algorithmic Trading Using Directional-change Forecasting and Identifying Lead-lag Relations. GPA: 4.0 / 19.05 of 20."
+    },
+    {
+      "degree": "BSc, Electrical Engineering",
+      "organization": "Islamic Azad University",
+      "period": "2014 - 2018",
+      "description": "Graduated with a GPA of 3.22 / 16.1 of 20."
+    }
+  ],
+  "publications": [
+    {
+      "title": "State-Dependent Market (In)Efficiency in Cryptocurrency Markets",
+      "authors": "Sasan Barak, Siavash Razmi, Alireza Mousavi",
+      "venue": "SSRN",
+      "year": "2025",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5525163",
+      "description": "Studies whether cryptocurrency market inefficiency is regime-dependent using adaptive learning from on-chain and trend-based information."
+    },
+    {
+      "title": "Highly Dynamic and Flexible Spatio-Temporal Spectrum Management with AI-Driven O-RAN: A Multi-Granularity Marketplace Framework",
+      "authors": "Mehdi Rasti, Elaheh Ataeebojd, Shiva Kazemi Taskooh, Mehdi Monemi, Siavash Razmi, Matti Latva-aho",
+      "venue": "DBLP / arXiv",
+      "year": "2025",
+      "url": "https://dblp.org/rec/journals/corr/abs-2502-13891",
+      "description": "Proposes adaptive AI-driven spectrum sharing for O-RAN with multi-timescale and multi-granularity allocation."
+    },
+    {
+      "title": "Adaptive Crypto Trading Using Directional Change and Meta-Learning",
+      "authors": "Siavash Razmi, Sasan Barak",
+      "venue": "SSRN",
+      "year": "2024",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5017215",
+      "description": "Introduces a directional-change strategy with meta-learning for adaptive hyperparameter selection across market regimes."
+    }
+  ],
+  "projects": [
+    {
+      "title": "DeepLOB on Binance Perpetual Market Data",
+      "meta": "Deep learning for limit-order-book data",
+      "description": "Training and evaluating DeepLOB-style models on cryptocurrency futures order book data."
+    },
+    {
+      "title": "Reinforcement Learning Trading Bot",
+      "meta": "Bitcoin and Ethereum markets",
+      "description": "Designed reinforcement-learning-based trading agents and backtests for crypto market environments."
+    },
+    {
+      "title": "Persian Text-to-Speech and Summarization",
+      "meta": "SpeechT5 and LLM fine-tuning",
+      "description": "Fine-tuned SpeechT5 over Common Voice and stablelm-3b over TweetSumm for Persian-language AI tasks."
+    },
+    {
+      "title": "Network Analysis of Persian Twitter",
+      "meta": "Gephi and social network algorithms",
+      "description": "Analyzed tweet interaction networks using PageRank, Louvain community detection, and betweenness centrality."
+    },
+    {
+      "title": "Robot Localization and Mapping",
+      "meta": "ROS, particle filters, Kalman filters",
+      "description": "Implemented probabilistic localization and mapping workflows in robotics simulations."
+    },
+    {
+      "title": "Geospatial and Business Data Analysis",
+      "meta": "QGIS, Selenium, market data",
+      "description": "Mapped Iranian geospatial data and analyzed online Persian travel service pricing through web crawling."
+    }
+  ],
+  "skills": [
+    "Python",
+    "R",
+    "PyTorch",
+    "TensorFlow",
+    "LightGBM",
+    "XGBoost",
+    "CatBoost",
+    "Time Series Forecasting",
+    "Anomaly Detection",
+    "Cloud Computing",
+    "Docker",
+    "Git",
+    "Jenkins",
+    "Ansible",
+    "Terraform",
+    "PostgreSQL",
+    "MongoDB",
+    "NetworkX",
+    "igraph",
+    "Gephi",
+    "Linux",
+    "Windows Server",
+    "LaTeX"
+  ]
+}
