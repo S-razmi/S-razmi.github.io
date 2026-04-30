@@ -13,7 +13,7 @@ const link = ({ label, url, primary = false }) => {
 
 const card = (item) => `
   <article class="card">
-    <h3>${item.title}</h3>
+    <h3>${item.url ? `<a href="${item.url}" target="_blank" rel="noreferrer">${item.title}</a>` : item.title}</h3>
     ${item.meta ? `<span class="meta">${item.meta}</span>` : ""}
     <p>${item.description}</p>
   </article>
@@ -23,7 +23,7 @@ const timelineItem = (item) => `
   <article class="timeline-item">
     <div>
       <h3>${item.role || item.degree}</h3>
-      <span class="meta">${item.organization}</span>
+      <span class="meta">${item.organizationUrl ? `<a href="${item.organizationUrl}" target="_blank" rel="noreferrer">${item.organization}</a>` : item.organization}</span>
       <p>${item.description}</p>
     </div>
     <span class="date">${item.period}</span>

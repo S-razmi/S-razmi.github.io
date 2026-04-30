@@ -1,8 +1,8 @@
 {
   "name": "Siavash Razmi",
   "kicker": "PhD Candidate in Computer Science",
-  "headline": "Researching AI-driven anomaly detection, cloud computing, and intelligent networked systems at Universitat Innsbruck.",
-  "bio": "I work at the intersection of machine learning, cloud and network systems, data analytics, and quantitative modeling. My recent research spans AI-driven spectrum management for O-RAN, anomaly detection for cloud environments, and adaptive models for cryptocurrency market behavior. Previously, I completed an MSc in Artificial Intelligence at the University of Tehran, where my thesis focused on directional-change forecasting and lead-lag relationships for algorithmic trading.",
+  "headline": "Researching AI-based anomaly detection and root cause analysis for cloud and distributed systems at the University of Innsbruck.",
+  "bio": "I am a PhD Candidate in Computer Science at the University of Innsbruck, working in the Distributed and Parallel Systems Group under the supervision of Dr. Thomas Fahringer. My current research focuses on anomaly detection and root cause analysis systems using AI methods for cloud, distributed, and parallel computing environments. My broader work spans machine learning, cloud and network systems, data analytics, AI-driven O-RAN spectrum management, and adaptive models for cryptocurrency market behavior. Previously, I completed an MSc in Artificial Intelligence at the University of Tehran, where my thesis focused on directional-change forecasting and lead-lag relationships for algorithmic trading.",
   "contactNote": "For research collaboration, applied AI work, or academic inquiries, email is the best first contact.",
   "links": [
     {
@@ -21,6 +21,10 @@
     {
       "label": "DBLP",
       "url": "https://dblp.org/pid/400/4739"
+    },
+    {
+      "label": "DPS Group",
+      "url": "https://dps.uibk.ac.at/"
     },
     {
       "label": "ORCID",
@@ -44,13 +48,23 @@
     {
       "label": "GitHub",
       "url": "https://github.com/S-razmi"
+    },
+    {
+      "label": "DPS Group",
+      "url": "https://dps.uibk.ac.at/"
     }
   ],
   "research": [
     {
-      "title": "Cloud and AI Systems",
+      "title": "AI for Cloud Reliability",
       "meta": "Current PhD research",
-      "description": "AI-driven anomaly detection, cloud computing, and reliable intelligent infrastructure."
+      "description": "Anomaly detection and root cause analysis for cloud, distributed, and parallel systems using machine learning and AI methods."
+    },
+    {
+      "title": "Distributed and Parallel Systems",
+      "meta": "University of Innsbruck",
+      "url": "https://dps.uibk.ac.at/",
+      "description": "Research in the Distributed and Parallel Systems Group under the supervision of Dr. Thomas Fahringer."
     },
     {
       "title": "AI for Network Management",
@@ -66,9 +80,10 @@
   "experience": [
     {
       "role": "PhD Candidate in Computer Science",
-      "organization": "Universitat Innsbruck",
+      "organization": "Distributed and Parallel Systems Group, University of Innsbruck",
+      "organizationUrl": "https://dps.uibk.ac.at/",
       "period": "2025 - Present",
-      "description": "Researching AI, cloud computing, anomaly detection, and intelligent networked systems."
+      "description": "Working under the supervision of Dr. Thomas Fahringer on AI-based anomaly detection and root cause analysis systems for cloud, distributed, and parallel computing environments."
     },
     {
       "role": "Data Scientist",
@@ -98,9 +113,10 @@
   "education": [
     {
       "degree": "PhD, Computer Science",
-      "organization": "Universitat Innsbruck",
+      "organization": "University of Innsbruck",
+      "organizationUrl": "https://dps.uibk.ac.at/",
       "period": "2025 - Present",
-      "description": "Research focus: AI, cloud computing, anomaly detection, and intelligent systems."
+      "description": "Distributed and Parallel Systems Group. Research focus: AI-based anomaly detection, root cause analysis, cloud computing, distributed systems, and parallel systems."
     },
     {
       "degree": "MSc, Computer Engineering - Artificial Intelligence",
@@ -183,7 +199,13 @@
     "CatBoost",
     "Time Series Forecasting",
     "Anomaly Detection",
+    "Root Cause Analysis",
     "Cloud Computing",
+    "Distributed Systems",
+    "Parallel Systems",
+    "AI for Systems",
+    "MLOps",
+    "Observability",
     "Docker",
     "Git",
     "Jenkins",
