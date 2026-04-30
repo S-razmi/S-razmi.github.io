@@ -7,7 +7,7 @@
   "links": [
     {
       "label": "Email",
-      "url": "mailto:SiavashRazmi74@gmail.com",
+      "url": "mailto:siavash.razmi@uibk.ac.at",
       "primary": true
     },
     {
@@ -32,13 +32,13 @@
     },
     {
       "label": "Google Scholar",
-      "url": ""
+      "url": "https://scholar.google.com/scholar?hl=en&q=%22Siavash+Razmi%22"
     }
   ],
   "contactLinks": [
     {
       "label": "Email Siavash",
-      "url": "mailto:SiavashRazmi74@gmail.com",
+      "url": "mailto:siavash.razmi@uibk.ac.at",
       "primary": true
     },
     {
