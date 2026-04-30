@@ -147,7 +147,7 @@ img {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(17rem, 25rem);
+  grid-template-columns: minmax(0, 1fr) minmax(15rem, 21rem);
   gap: clamp(2rem, 7vw, 6rem);
   align-items: center;
   min-height: calc(88vh - 4rem);
@@ -228,11 +228,13 @@ h3 {
 
 .portrait img {
   aspect-ratio: 1;
-  width: min(100%, 25rem);
+  width: min(100%, 21rem);
+  height: auto;
   border: 1px solid var(--line);
   border-radius: 1.4rem;
   box-shadow: var(--shadow);
   object-fit: cover;
+  object-position: center;
 }
 
 .intro-grid,
@@ -394,7 +396,7 @@ h3 {
   }
 
   .portrait img {
-    width: min(18rem, 100%);
+    width: min(15rem, 100%);
   }
 
   .sticky-heading {
