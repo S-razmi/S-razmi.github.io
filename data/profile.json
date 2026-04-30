@@ -3,6 +3,12 @@
   "kicker": "PhD Candidate in Computer Science",
   "headline": "Researching AI-based anomaly detection and root cause analysis for cloud and distributed systems at the University of Innsbruck.",
   "bio": "I am a PhD Candidate in Computer Science at the University of Innsbruck, working in the Distributed and Parallel Systems Group under the supervision of Dr. Thomas Fahringer. My current research focuses on anomaly detection and root cause analysis systems using AI methods for cloud, distributed, and parallel computing environments. My broader work spans machine learning, cloud and network systems, data analytics, AI-driven O-RAN spectrum management, and adaptive models for cryptocurrency market behavior. Previously, I completed an MSc in Artificial Intelligence at the University of Tehran, where my thesis focused on directional-change forecasting and lead-lag relationships for algorithmic trading.",
+  "bioLinks": [
+    {
+      "label": "Distributed and Parallel Systems Group",
+      "url": "https://dps.uibk.ac.at/"
+    }
+  ],
   "contactNote": "For research collaboration, applied AI work, or academic inquiries, email is the best first contact.",
   "links": [
     {
@@ -21,10 +27,6 @@
     {
       "label": "DBLP",
       "url": "https://dblp.org/pid/400/4739"
-    },
-    {
-      "label": "DPS Group",
-      "url": "https://dps.uibk.ac.at/"
     },
     {
       "label": "ORCID",
@@ -48,10 +50,6 @@
     {
       "label": "GitHub",
       "url": "https://github.com/S-razmi"
-    },
-    {
-      "label": "DPS Group",
-      "url": "https://dps.uibk.ac.at/"
     }
   ],
   "research": [
@@ -79,18 +77,18 @@
   ],
   "experience": [
     {
-      "role": "Quantitative Developer",
-      "organization": "Clanz",
-      "organizationUrl": "https://www.linkedin.com/in/siavash-razmi/",
-      "period": "Jan 2025 - Jul 2025",
-      "description": "Led the design and development of the trading layer for the Parabolic.fi platform. Built infrastructure to deploy, run, and maintain algorithmic trading bots with Python, SQL, JavaScript, FastAPI, REST interfaces, asynchronous event-driven services, clean architecture, and crypto exchange integrations including Bybit, LBank, Coinstore, CCXT, and custom interfaces."
-    },
-    {
       "role": "PhD Candidate in Computer Science",
       "organization": "Distributed and Parallel Systems Group, University of Innsbruck",
       "organizationUrl": "https://dps.uibk.ac.at/",
       "period": "2025 - Present",
       "description": "Working under the supervision of Dr. Thomas Fahringer on AI-based anomaly detection and root cause analysis systems for cloud, distributed, and parallel computing environments."
+    },
+    {
+      "role": "Quantitative Developer",
+      "organization": "Clanz",
+      "organizationUrl": "https://www.linkedin.com/in/siavash-razmi/",
+      "period": "Jan 2025 - Jul 2025",
+      "description": "Led the design and development of the trading layer for the Parabolic.fi platform. Built infrastructure to deploy, run, and maintain algorithmic trading bots with Python, SQL, JavaScript, FastAPI, REST interfaces, asynchronous event-driven services, clean architecture, and crypto exchange integrations including Bybit, LBank, Coinstore, CCXT, and custom interfaces."
     },
     {
       "role": "Quantitative Researcher",

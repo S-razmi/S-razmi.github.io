@@ -1,8 +1,29 @@
 const text = (value) => (value == null ? "" : String(value));
 
+const escapeHtml = (value) =>
+  text(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+
 const setText = (selector, value) => {
   document.querySelectorAll(selector).forEach((node) => {
     node.textContent = text(value);
+  });
+};
+
+const setLinkedText = (selector, value, links = []) => {
+  const escaped = escapeHtml(value);
+  const html = links.reduce((content, item) => {
+    if (!item.label || !item.url) return content;
+    const label = escapeHtml(item.label);
+    return content.replace(label, `<a href="${item.url}" target="_blank" rel="noreferrer">${label}</a>`);
+  }, escaped);
+
+  document.querySelectorAll(selector).forEach((node) => {
+    node.innerHTML = html;
   });
 };
 
@@ -45,7 +66,7 @@ const render = (profile) => {
   setText('[data-profile="kicker"]', profile.kicker);
   setText('[data-profile="name"]', profile.name);
   setText('[data-profile="headline"]', profile.headline);
-  setText('[data-profile="bio"]', profile.bio);
+  setLinkedText('[data-profile="bio"]', profile.bio, profile.bioLinks);
   setText('[data-profile="contactNote"]', profile.contactNote);
 
   document.querySelector('[data-profile-list="links"]').innerHTML = profile.links
